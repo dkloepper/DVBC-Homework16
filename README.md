@@ -67,3 +67,19 @@ Compare the performance of two or more classifiers to determine the best model p
 * Include a README.md file that summarizes your assumptions and findings.
 
 * Submit the link to your GitHub project to Bootcamp Spot.
+
+- - -
+
+## Findings
+
+* Classifiers Evaluated
+    - Support Vector Machine - Linear Kernel
+    - Support Vector Machine - Polynomial Kernel
+    - Support Vector Machine - RBF Kernel
+    - k-nearest neighbors
+
+* Findings
+
+    - Of the classifiers evaluated, SVM - Linear appears to provide the best fit with a score of 0.889 at {'C': 250, 'gamma': 5e-05}. 
+    - SVM - RBF and KNN results were in a similar range of results. SVM - Polynomal performed the worst and does not appear to be a good fit for this dataset. 
+    - Additional iterations of GridSearch may uncover better model fit, but was limited here due to time and resources. 
